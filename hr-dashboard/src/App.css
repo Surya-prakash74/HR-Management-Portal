@@ -1,0 +1,32 @@
+:root {
+  --navy-900: #170f45;
+  --navy-800: #1e1656;
+  --navy-700: #2c2172;
+  --gold: #2dd4bf;
+  --gold-text: #0b1120;
+  --bg-page: #72747a;
+  --red: #ef4444;
+  --green: #22c55e;
+  --text-dark: #1f2937;
+  --text-muted: #cdd1da;
+  --border-light: #3846b2;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  background: var(--bg-page);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
