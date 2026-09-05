@@ -12,7 +12,7 @@
 }
 
 .stat-card {
-  background: #d7d1d1;
+  background: #f39410;
   border-radius: 12px;
   padding: 18px;
   display: flex;
@@ -29,11 +29,11 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: #d23d3d;
+  color: #050303;
 }
 
 .stat-icon.blue {
-  background: #3a4255;
+  background: #2659ce;
 }
 .stat-icon.green {
   background: var(--green);

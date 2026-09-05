@@ -29,7 +29,7 @@
 
 .tab-btn.active {
   background: var(--gold);
-  color: var(--gold-text);
+  color: var(--silver-text);
 }
 
 .tab-btn:disabled {

@@ -6,9 +6,9 @@ import './Topbar.css';
 const CANDIDATE_FILTERS = ['All Candidates', 'Active Candidates', 'Archived Candidates'];
 
 const NOTIFICATIONS = [
-  'Priya Patel submitted a new leave request.',
-  'Payroll run for July completed successfully.',
-  '3 new candidates applied for Frontend Engineer.',
+  'Rakesh choudharysubmitted a new leave request.',
+  'Payroll run for September completed successfully.',
+  '4 new candidates applied for Frontend Engineer.',
 ];
 
 type Menu = 'candidates' | 'notifications' | 'mail' | null;
